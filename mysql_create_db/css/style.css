@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@100&display=swap');
+
+
+:root{
+    --main-color:#bda892;
+    --black-color: #231F20;
+    --border: 0.1rem solid rgba(117, 75, 40, 0.4);
+    --main-color2:#754b28;
+}
+
+html::-webkit-scrollbar{
+    width: 0.8rem;
+    background-color:#c996a0;
+    color: var(--black-color);
+   
+
+}
+html::-webkit-scrollbar-thumb {
+    border-radius: 3rem;
+    background-color: #ffff;
+    color: var(--black-color);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #754b28;
+    background: url(../img/mini.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 1;
+	width: 100% auto;
+	height: 90% auto;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	color: #bda892;
+	margin-bottom: 100px ;
+}
+
+h1{
+    font-size: 55px;
+    color: #ddd0d3 ;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+    padding-top: 5rem;
+    margin-bottom: 1.3rem;
+    text-align: center;
+}
+
+label.info{
+    color:#ddd0d3 ;
+}
+
+
+
+
+p.telefon{
+    color: red;
+}
+
+.btn{
+    font-size: 1.2rem;
+	background-color:#81204e;
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	width: 100%;
+	color: #E1C5C6;
+	font: bold;
+	opacity: 1.2;
+    border-radius: 10rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color:#fff ;
+    background-color:#81194c ;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	width: 170%;
+	margin: auto;
+	max-width: 500px;
+	max-height: auto;
+	padding: 40px;
+	color:rgb(224, 210, 210);
+	background-color:rgb(201, 150, 160,0.8);
+	border-radius: 10px;
+    
+}
+
+label{
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+	
+	
+}
+
+.form-group > label {
+	margin-bottom: 5px;
+	font-size: 1.2rem;
+}
+
+input{
+	font-size: 1.2rem;
+	padding: 5px 10px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+}
+
+select{
+	font-size: 1.2rem;
+	padding: 3px 10px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+}
+
+a{
+    color: var(--main-color2);
+    text-decoration: none;
+}
+
+
+input[type="radio"]{
+	width: 14px;
+	height: 14px;
+}
+
+
+
+input[type="checkbox"]{
+	width: 18px;
+	height: 18px;
+}
+
+
+.php-css{
+	font-size: 1.3rem;
+	color: #fff;
+	text-shadow: 0px 1px 1px black;
+}
+
+
+
+
+
